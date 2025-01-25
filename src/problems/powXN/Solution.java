@@ -1,5 +1,8 @@
 package problems.powXN;
 
+import problemTypes.MathProblem;
+
+@MathProblem
 public class Solution {
     public double myPow(double x, int n) {
         return calcPow(x, (long) n);

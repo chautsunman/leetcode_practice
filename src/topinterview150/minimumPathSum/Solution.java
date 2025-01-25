@@ -1,5 +1,8 @@
 package topinterview150.minimumPathSum;
 
+import problemTypes.DynamicProgramming;
+
+@DynamicProgramming
 public class Solution {
     public int minPathSum(int[][] grid) {
         final int numRows = grid.length;

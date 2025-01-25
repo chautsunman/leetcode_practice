@@ -1,5 +1,8 @@
 package topinterview150.climbingStairs;
 
+import problemTypes.DynamicProgramming;
+
+@DynamicProgramming
 public class Solution {
     public int climbStairs(int n) {
         if (n == 1) {

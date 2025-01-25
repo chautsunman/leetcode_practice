@@ -1,7 +1,10 @@
 package topinterview150.longestIncreasingSubsequence;
 
+import problemTypes.DynamicProgramming;
+
 import java.util.Arrays;
 
+@DynamicProgramming
 public class Solution {
     public int lengthOfLIS(int[] nums) {
         final int numsLen = nums.length;

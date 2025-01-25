@@ -1,5 +1,8 @@
 package topinterview150.uniquePaths2;
 
+import problemTypes.DynamicProgramming;
+
+@DynamicProgramming
 public class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         final int numRows = obstacleGrid.length;

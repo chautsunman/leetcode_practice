@@ -1,9 +1,12 @@
 package topinterview150.triangle;
 
+import problemTypes.DynamicProgramming;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+@DynamicProgramming
 public class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         List<Integer> dp = new ArrayList<>();

@@ -1,9 +1,12 @@
 package topinterview150.wordBreak;
 
+import problemTypes.DynamicProgramming;
+
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+@DynamicProgramming
 public class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         final int sLen = s.length();

@@ -1,5 +1,8 @@
 package topinterview150.houseRobber;
 
+import problemTypes.DynamicProgramming;
+
+@DynamicProgramming
 public class Solution {
     public int rob(int[] nums) {
         final int numsLen = nums.length;

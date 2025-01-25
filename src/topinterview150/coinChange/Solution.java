@@ -1,5 +1,8 @@
 package topinterview150.coinChange;
 
+import problemTypes.DynamicProgramming;
+
+@DynamicProgramming
 public class Solution {
     public int coinChange(int[] coins, int amount) {
         final int[] minConstruct = new int[amount + 1];
